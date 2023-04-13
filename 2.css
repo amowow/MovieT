@@ -1,0 +1,249 @@
+/* Reset styles for cross-browser consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+  }
+  /* Set default styles for links */
+  a {
+      color: #000000;
+      text-decoration: none;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: rgb(0, 0, 0);
+      padding: 20px;
+    }
+    
+    /* Navigation styles */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin: 0 15px;
+    }
+    
+    nav a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    nav a:hover {
+      color: orange;
+      text-decoration: none;
+    }
+    
+/*For the movie*/
+
+
+
+section#movies {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movie {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  .movie__img {
+    height: auto;
+    max-width: 100%;
+    margin-right: 20px;
+  }
+  
+  .movie__details {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .movie__title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .movie__description {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .movie .watch-button {
+    background-color: #f00;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    white-space: nowrap;
+  }
+  
+  .movie .watch-button:hover {
+    background-color: #c00;
+    cursor: pointer;
+  }
+  /*The nav number*/
+
+
+  .number-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+
+
+
+
+
+  /*The footer code, email and copy*/
+
+/* Reset styles for cross-browser consistency */
+
+/* Footer styles */
+/* Reset styles for cross-browser consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1e272e;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .links {
+  display: flex;
+  justify-content: center; /* center the links horizontally */
+  width: 100%; /* make the links take up the full width of the container */
+}
+
+footer .links a {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px; /* add equal margins to the left and right of each link */
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .links a:hover {
+  color: orange;
+}
+
+footer .All_Mailchip_code {
+  margin-top: 20px;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer .mc-field-group input {
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+footer .mc-field-group input:focus {
+  outline: none;
+}
+
+footer .mc-field-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer #mc-embedded-subscribe-form .clear {
+  text-align: center;
+}
+
+footer .The_copy {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .The_copy p {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  footer .container {
+      flex-direction: row;
+  }
+
+  footer .links {
+      margin-right: auto;
+  }
+
+  footer .All_Mailchip_code {
+      margin-top: 0;
+  }
+
+  footer .The_copy {
+      margin-top: 0;
+  }
+}
